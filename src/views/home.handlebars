@@ -1,0 +1,80 @@
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1 class="text-center mb-4">Estudio de Mercado - Playeras</h1>
+        <form id="surveyForm" class="needs-validation" novalidate>
+            <!-- Datos demográficos -->
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Datos demográficos</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label">¿Cuál es tu edad?</label>
+                        <select name="age" class="form-select" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="menos18">Menos de 18 años</option>
+                            <option value="18-24">18-24 años</option>
+                            <option value="25-34">25-34 años</option>
+                            <option value="35-44">35-44 años</option>
+                            <option value="45mas">45 años o más</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">¿Género?</label>
+                        <select name="gender" class="form-select" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="no_responde">Prefiero no decirlo</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Preferencias de diseño -->
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Preferencias de diseño</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label">¿Qué tipo de personajes o temáticas prefieres?</label>
+                        <select name="design_preference" class="form-select" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="peliculas">Personajes de películas o series</option>
+                            <option value="caricaturas">Caricaturas o animaciones</option>
+                            <option value="abstractos">Diseños abstractos</option>
+                            <option value="frases">Frases o mensajes</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">¿Prefieres playeras estampadas o lisas?</label>
+                        <select name="print_preference" class="form-select" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="estampadas">Estampadas</option>
+                            <option value="lisas">Lisas</option>
+                            <option value="ambas">Me gustan ambas</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Si eliges estampadas, ¿qué tipo de estampado prefieres?</label>
+                        <select name="print_color_preference" class="form-select">
+                            <option value="">Selecciona una opción</option>
+                            <option value="blanco_negro">Blanco y negro</option>
+                            <option value="colores">A colores</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resto de secciones similares -->
+            <!-- ... -->
+
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary btn-lg">Enviar respuestas</button>
+            </div>
+        </form>
+    </div>
+</div>
